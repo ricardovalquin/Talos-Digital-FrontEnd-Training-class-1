@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway/raleway-bold-webfont.eot');
+    src: url('fonts/raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+    url('fonts/raleway/raleway-bold-webfont.woff') format('woff'),
+    url('fonts/raleway/raleway-bold-webfont.ttf') format('truetype'),
+    url('fonts/raleway/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway/raleway-regular-webfont.eot');
+    src: url('fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+    url('fonts/raleway/raleway-regular-webfont.woff') format('woff'),
+    url('fonts/raleway/raleway-regular-webfont.ttf') format('truetype'),
+    url('fonts/raleway/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway/raleway-thin-webfont.eot');
+    src: url('fonts/raleway/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway/raleway-thin-webfont.woff2') format('woff2'),
+    url('fonts/raleway/raleway-thin-webfont.woff') format('woff'),
+    url('fonts/raleway/raleway-thin-webfont.ttf') format('truetype'),
+    url('fonts/raleway/raleway-thin-webfont.svg#ralewaythin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+
+/* Universal Selectors */
+/* Element Selectors */
+
+/* Class, Attribute, and Pseudo Selectors */
+.blue{
+    background-color: #76C4D1;
+    /*margin: auto;*/
+    margin:5%;
+}
+
+.title-badge{
+    background-color: #E92C48;
+    display: block;
+    width: 150px;
+    font-size: 20px;
+    color: #F0BCC3;
+}
+
+.main-content{
+    padding:5%;
+    background-color: lightgoldenrodyellow;
+}
+
+.gray{
+    position: absolute;
+    max-width: 300px;
+    top: 0;
+    right: 0;
+    background-color:rgba(68,72, 84, 0.9);
+}
+
+.aside-yellow{
+    position: absolute;
+    max-width:16%;
+    top: 37%;
+    padding: 36px 20px 17px 55px;;
+    right: 5.5%;
+    background-color:rgba(226, 229, 138, 0.8);
+
+}
+
+.first-one{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: -30%;
+    padding-right: 5%;
+    max-width: 69%;
+    padding-left: 30%;
+}
+
+/* ID Selectors */
+/* !important Universal Selectors */
+/* !important Element Selectors */
+/* !important Class, Attribute, and Pseudo Selectors */
+/* !important ID Selectors */
