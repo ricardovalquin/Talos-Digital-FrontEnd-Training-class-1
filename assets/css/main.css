@@ -42,30 +42,22 @@
 /* Element Selectors */
 
 /* Class, Attribute, and Pseudo Selectors */
-.blue{
-    background-color: #76C4D1;
-    /*margin: auto;*/
-    margin:5%;
-}
-
-.title-badge{
-    background-color: #E92C48;
-    display: block;
-    width: 150px;
-    font-size: 20px;
-    color: #F0BCC3;
+body{
+    background-color: #D9EDE2;
 }
 
 .main-content{
+    margin:5%;
     padding:5%;
-    background-color: lightgoldenrodyellow;
+    background-color: #77C5D2;
 }
 
 .gray{
     position: absolute;
-    max-width: 300px;
     top: 0;
     right: 0;
+    min-width: 25%;
+    min-height: 100%;
     background-color:rgba(68,72, 84, 0.9);
 }
 
@@ -79,12 +71,54 @@
 
 }
 
-.first-one{
-    background-color: rgba(255, 255, 255, 0.7);
-    margin-left: -30%;
-    padding-right: 5%;
+.title-badge{
+    background-color: #E92C48;
+    display: block;
+    width: 237px;
+    padding: 1% 2%;
+    font-size: 26px;
+    color: #F3CED3;
+}
+
+.h1-title{
+    color: white;
+    text-transform: capitalize;
+    font-size: 55px;
+    margin-top: 1.5%;
+}
+
+.content{
     max-width: 69%;
-    padding-left: 30%;
+}
+
+.left-white{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: -30%;
+    padding-right: 9%;
+    max-width: 100%;
+    padding: 5% 5% 5% 30%;
+}
+
+.participation{
+    background-color: #DD3B53;
+    color: white;
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    left: 16%;
+    margin-top: 7%;
+    padding: 5% 3%;
+}
+
+.about{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 35%;
+    left: 5%;
+    margin-top: 7%;
+    padding: 5% 3%;
+    display: inline-block;
 }
 
 /* ID Selectors */
