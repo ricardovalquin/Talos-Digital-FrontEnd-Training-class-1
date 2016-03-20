@@ -40,11 +40,36 @@
 
 /* Universal Selectors */
 /* Element Selectors */
-
-/* Class, Attribute, and Pseudo Selectors */
 body{
     background-color: #D9EDE2;
 }
+
+hr{
+    border-color: red;
+}
+a{
+    color: black;
+}
+
+p::first-letter { 
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    margin: 5% 0;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 30px
+}
+
+/* Class, Attribute, and Pseudo Selectors */
 
 .main-content{
     margin:5%;
@@ -63,11 +88,11 @@ body{
 
 .aside-yellow{
     position: absolute;
-    max-width:16%;
+    max-width: 16%;
     top: 37%;
-    padding: 36px 20px 17px 55px;;
+    padding: 5% 3.5% 5% 5%;
     right: 5.5%;
-    background-color:rgba(226, 229, 138, 0.8);
+    background-color: rgba(226, 229, 138, 0.8);
 
 }
 
@@ -119,6 +144,43 @@ body{
     margin-top: 7%;
     padding: 5% 3%;
     display: inline-block;
+}
+
+.h2-about{
+    text-transform: capitalize;
+}
+
+.benefits{
+    background-color: white;
+    position: relative;
+    width: 18.5%;
+    padding: 7% 5%;
+    /* margin-top: 10%; */
+    display: inline-block;    
+}
+
+.requeriments{
+    background-color: white;
+    width: 60%;
+    position: relative;
+    left: 28.5%;
+    padding: 6% 5%
+}
+
+.footer{
+    background-color: #E7F097;
+    padding: 1.5% 5%;
+    width: 45%;
+}
+
+.upper-case{
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 10px;
+}
+
+.author{
+    text-transform: uppercase;
 }
 
 /* ID Selectors */
