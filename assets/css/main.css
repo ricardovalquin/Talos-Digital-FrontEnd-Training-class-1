@@ -72,6 +72,9 @@ p::first-letter {
     font-weight: bold;
 }
 
+li{
+    color: #9E9F5C;
+}
 
 li::after {
     counter-increment: section;
@@ -91,20 +94,24 @@ li:first-child{
     background-color: #77C5D2;
 }
 
+.content{
+    max-width: 64%;
+}
+
 .gray{
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 25%;
+    min-width: 29.5%;
     min-height: 100%;
     background-color:rgba(68,72, 84, 0.9);
 }
 
 .aside-yellow{
     position: absolute;
-    max-width: 16%;
-    top: 37%;
-    padding: 5% 3.5% 5% 5%;
+    max-width: 20.5%;
+    top: 20%;
+    padding: 3% 3.5% 5% 5%;
     right: 5.5%;
     background-color: rgba(226, 229, 138, 0.9);
 
@@ -115,24 +122,22 @@ li:first-child{
     display: block;
     width: 237px;
     padding: 1% 2%;
-    font-size: 26px;
-    color: #F3CED3;
+    font-size: 23px;
+    color: #DF808F;
+    text-align: center;
 }
 
 .h1-title{
     color: white;
     text-transform: capitalize;
-    font-size: 48px;
+    font-size: 45px;
     margin-top: 1.5%;
-}
-
-.content{
-    max-width: 69%;
 }
 
 .left-white{
     background-color: rgba(255, 255, 255, 0.8);
     margin-left: -30%;
+    margin-top: 7%;
     padding-right: 9%;
     max-width: 100%;
     padding: 5% 5% 5% 30%;
@@ -143,14 +148,14 @@ li:first-child{
     color: white;
     position: relative;
     display: inline-block;
-    width: 35%;
-    left: 16%;
+    width: 43%;
+    left: 8%;
     margin-top: 7%;
     padding: 5% 3%;
 }
 
 .about{
-    background-color: black;
+    background-color: transparent;
     color: white;
     position: relative;
     width: 35%;
@@ -165,7 +170,7 @@ li:first-child{
 }
 
 .benefits{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     position: relative;
     width: 18.5%;
     padding: 7% 5%;
@@ -174,7 +179,7 @@ li:first-child{
 }
 
 .requeriments{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     width: 60%;
     position: relative;
     left: 28.5%;
@@ -189,12 +194,13 @@ li:first-child{
 
 .upper-case{
     text-transform: uppercase;
-    color: white;
+    color: #C5E8EC;
     word-spacing: 5px;
 }
 
 .author{
     text-transform: uppercase;
+    color: #959A9D;
 }
 
 /* ID Selectors */
