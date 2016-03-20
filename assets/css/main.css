@@ -42,6 +42,8 @@
 /* Element Selectors */
 body{
     background-color: #D9EDE2;
+    font-family: 'raleway';
+    counter-reset: section;
 }
 
 hr{
@@ -50,11 +52,6 @@ hr{
 a{
     color: black;
 }
-
-p::first-letter { 
-    font-weight: bold;
-}
-
 ul{
     list-style-type: none;
     padding-left: 0;
@@ -70,6 +67,23 @@ h2{
 }
 
 /* Class, Attribute, and Pseudo Selectors */
+
+p::first-letter { 
+    font-weight: bold;
+}
+
+
+li::after {
+    counter-increment: section;
+    content: " " counter(section);
+}
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
+li:first-child{
+    font-weight: normal;
+}
 
 .main-content{
     margin:5%;
@@ -92,7 +106,7 @@ h2{
     top: 37%;
     padding: 5% 3.5% 5% 5%;
     right: 5.5%;
-    background-color: rgba(226, 229, 138, 0.8);
+    background-color: rgba(226, 229, 138, 0.9);
 
 }
 
@@ -108,7 +122,7 @@ h2{
 .h1-title{
     color: white;
     text-transform: capitalize;
-    font-size: 55px;
+    font-size: 48px;
     margin-top: 1.5%;
 }
 
@@ -176,7 +190,7 @@ h2{
 .upper-case{
     text-transform: uppercase;
     color: white;
-    word-spacing: 10px;
+    word-spacing: 5px;
 }
 
 .author{
