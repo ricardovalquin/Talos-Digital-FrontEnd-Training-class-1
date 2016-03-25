@@ -215,3 +215,68 @@ li:first-child{
 /* !important Element Selectors */
 /* !important Class, Attribute, and Pseudo Selectors */
 /* !important ID Selectors */
+
+
+
+/* 700 and up */
+@media screen and (min-width: 700px) {
+
+    body {
+        font-size: 90%;
+    }
+
+}
+
+/* 800 and up */
+@media screen and (min-width: 800px) {
+
+    body {
+        font-size: 100%;
+    }
+
+}
+
+/* 900 and up */
+@media screen and (min-width: 900px) {
+
+    body {
+        font-size: 110%;
+    }
+
+}
+
+/* 1500 and up */
+@media screen and (min-width: 1500px) {
+
+    body {
+        font-size: 125%;
+    }
+
+}
+
+/* 1800 and up */
+@media screen and (min-width: 1800px) {
+
+    body {
+        font-size: 150%;
+    }
+
+}
+
+/* 2100 and up */
+@media screen and (min-width: 2100px) {
+
+    body {
+        font-size: 175%;
+    }
+
+}
+
+/* 2500 and up */
+@media screen and (min-width: 2500px) {
+
+    body {
+        font-size: 200%;
+    }
+
+}
